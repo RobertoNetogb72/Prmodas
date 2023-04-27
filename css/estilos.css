@@ -19,10 +19,6 @@ body {
 	padding-top: 19px;
 	width: 1520px;
 }
-#sessão2 {
-	background-color: yellow;
-	height: 600px;
-}
 .cabecalho {
 	height: 110px;
 }
@@ -40,6 +36,8 @@ body {
 }
 .linha {
 	height: 32px;
+	color: white;
+	font-size: 24px;
 }
 .text1 {
 	font-family: 'Inder';
