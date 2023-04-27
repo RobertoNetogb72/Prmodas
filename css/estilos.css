@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-image: linear-gradient(90deg, #000, #DE0101, #000);
+	text-align: center;
+}
+main {
+	margin: 0 auto;
+}
+body {
+	background-color: black;
+}
+#sessão1 {
+	margin: 0 auto;
+	background-color: black;
+	height: 900px;
+	padding-top: 19px;
+	width: 1520px;
+}
+#sessão2 {
+	background-color: yellow;
+	height: 600px;
+}
+.cabecalho {
+	height: 110px;
+}
+
+.logo {
+	position: absolute;
+	width: 115px;
+	height: 125px;
+	left: 1440px;
+	top: 12px;
+	color: white;
+}
+.login {
+	width: 41px;
+}
+.linha {
+	height: 32px;
+}
+.text1 {
+	font-family: 'Inder';
+	font-weight: 300;
+	font-size: 20px;
+	color: white;
+}
+.carrinho {
+	margin-left: 70px;
+	margin-top: 35px;
+	width: 30px;
+}
+.destaque {
+	background-color: #212121;
+	width: 1413px;
+	height: 330px;
+	margin: 0px 53px 530px 53px;
+}
+.destaques {	
+	background-image: linear-gradient(90deg, #000, #DE0101);
+	height: 70px;
+	width: 1413px;
+}
+.conteudo_destaque {
+	display: flex;
+
+}
+.destaques h1 {
+	color: #FF0000;
+	font-family: 'Inder';
+	font-weight: 400;
+	font-size: 55px;
+}
+.text2 {
+	color: white;
+	padding: 15px;
+
+}
+.text2 h2 {
+	color: #FF0000;
+	font-size: 30px;
+}
+.text2 {
+	font-size: 25px;
+}
+.destaques p {
+	font-family: 'Inder';
+	font-weight: 400;
+	font-size: 24px;
+}
+.destaque img {
+	width: 320px;
+	margin-top: 16px;
+	margin-left: 35px;
+}
+.produtos {
+	background-color: #212121;
+	width: 1413px;
+	margin: -488px 53px 130px 53px;
+	display: flex;
+}
+.pesquise {
+	Width: 400px;
+	Height: 55px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 50px;
+	font-size: 20px;
+	padding-left: 14px;
+}
+.itens {
+	background-color: #393939;
+	width: 420px;
+	height: 257px;
+	margin-top: 9px;
+
+}
+.filtrar {
+	margin-top: 30px;
+	background-color: black;
+	height: 60px;
+	color: #FF0000;
+	font-family: 'Inder';
+	font-weight: 400;
+	font-size: 48px;
+}
+.lista {
+	width: 252px;
+	height: 184px;
+}
+li {
+	color: white;
+	font-family: 'Arial';
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 9px;
+	margin-left: 8px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+}
+
+.peças {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	width: 850px;
+	height: 160px;
+}
+.peças2 {
+	display: flex;
+	justify-content: center;
+	width: 850px;
+}
+.prod_direita{
+	margin-left: auto;
+	margin-right: auto;
+}
+.prod_direita img {
+	height: 150px;
+	padding: 5px;
+	margin-left: 10px;
+}
+.rodape {
+	background-image: linear-gradient(90deg, #000, #DE0101);
+	height: 80px;
+	color: white;
+	text-align: center;
+}
