@@ -4,7 +4,6 @@
 }
 header {
   background-color: #613473;
-  
   text-align: center;
 }
 main {
@@ -37,7 +36,7 @@ body {
   width: 41px;
 
 }
-.linha {
+.linha {  
   height: 32px;
   color: white;
   font-size: 24px;
@@ -45,7 +44,7 @@ body {
 .text1 {
   font-family: 'Inder';
   font-weight: 300;
-  font-size: 20px;
+  font-size: 20px;  
   color: white;
 }
 .carrinho {
@@ -248,7 +247,7 @@ a:hover {
 }
 .button_form {
   margin-top: 10px;
-  margin-bottom: 5px;   
+  margin-bottom: 20px;   
   background-color: #613473;
   color: white;
   text-decoration: none;
@@ -260,4 +259,5 @@ a:hover {
 }
 .senha {
   margin-left: 400px;
+  margin-bottom: 100px;
 }
