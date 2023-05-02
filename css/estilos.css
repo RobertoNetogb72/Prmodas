@@ -10,11 +10,12 @@ main {
   margin: 0 auto;
 }
 body {
-  background-color: #957F9E;
+  background-color: #fff;
 }
+
 #sessão1 {
   margin: 0 auto;
-  background-color: #957F9E;
+  background-color: #fff;
   height: 900px;
   padding-top: 19px;
   width: 1520px;
@@ -30,7 +31,6 @@ body {
   left: 1540px;
   top: 12px;
   color: white;
-  background-color:
 }
 .login {
   width: 41px;
@@ -53,19 +53,21 @@ body {
   width: 30px;
 }
 .destaque {
-  background-color: #6BC5D2;
+  background-color: #fff;
+  border: 2px solid #613473;
+  border-radius: 20px;
   width: 1413px;
   height: 330px;
   margin: 0px 53px 530px 53px;
 }
 .destaques {  
   background-color: #86B2E9;
+  border-radius: 17px 17px 0 0;
   height: 70px;
   width: 1413px;
 }
 .conteudo_destaque {
   display: flex;
-
 }
 .destaques h1 {
   color: #613473;
@@ -73,8 +75,12 @@ body {
   font-weight: 400;
   font-size: 55px;
 }
+.conteudo_destaque img {
+	border: 1px solid #6BC5D2;
+	padding: 4px;
+}
 .text2 {
-  color: white;
+  color: black;
   padding: 15px;
 
 }
@@ -97,7 +103,9 @@ body {
   margin-left: 30px;
 }
 .produtos {
-  background-color: #6BC5D2;
+  background-color: #fff;
+  border: 2px solid #613473;
+  border-radius: 20px;
   width: 1413px;
   margin: -488px 53px 130px 53px;
   display: flex;
@@ -117,7 +125,7 @@ body {
   width: 420px;
   height: 257px;
   margin-top: 9px;
-
+  border-radius: 0 0 0 17px;
 }
 .filtrar {
   margin-top: 30px;
@@ -159,6 +167,7 @@ a:hover {
   display: flex;
   justify-content: center;
   width: 850px;
+  margin-top: 5px;
 }
 .prod_direita{
   margin-left: auto;
@@ -169,11 +178,31 @@ a:hover {
   padding: 5px;
   margin-left: 10px;
 }
+.peças img {
+	border: 1px solid #000;
+}
+.peças2 img {
+	border: 1px solid #000;
+}
 .rodape {
   background-color: #613473;
   height: 80px;
   color: white;
   text-align: center;
+}
+.rodape2 {
+  background-color: #613473;
+  height: 80px;
+  color: white;
+  text-align: center;
+  margin-top: 246px;
+}
+.rodape3 {
+  background-color: #613473;
+  height: 80px;
+  color: white;
+  text-align: center;
+  margin-top: 238px;
 }
 .camisa {
   transition: 0.5s ease-in-out;
@@ -232,7 +261,13 @@ a:hover {
 }
 .contato_conteudo h1{
   font-size: 48px;
-  color: white;
+  color: black;
+}
+.contato_conteudo a {
+ color: black;
+}
+.contato_conteudo a:hover {
+ color: #C290D6;
 }
 .control_form {
   text-align: center;
